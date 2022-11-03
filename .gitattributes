@@ -1,0 +1,16 @@
+* text=auto
+#
+.config   text
+.nojekyll text
+LICENSE   text
+#
+*.md text
+*.pl text
+*.sh text eol=lf
+#
+*.gif binary
+*.jpg binary
+*.png binary
+#
+.* export-ignore
+

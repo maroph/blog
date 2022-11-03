@@ -1,2 +1,1 @@
-# blog
-My GitHub Pages Blog
+# My GitHub Pages Blog
