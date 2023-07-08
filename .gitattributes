@@ -2,10 +2,12 @@
 #
 .config   text
 .nojekyll text
-LICENSE   text
 #
+*.css  text
+*.html text
 *.md text
 *.pl text
+*.rss text
 *.sh text eol=lf
 #
 *.gif binary
