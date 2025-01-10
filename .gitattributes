@@ -13,6 +13,4 @@
 *.gif binary
 *.jpg binary
 *.png binary
-#
-.* export-ignore
 
