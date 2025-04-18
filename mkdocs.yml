@@ -2,6 +2,7 @@
 # https://www.mkdocs.org/getting-started/
 # https://www.mkdocs.org/user-guide/
 # https://squidfunk.github.io/mkdocs-material/
+# https://guts.github.io/mkdocs-rss-plugin/
 site_name: Blog
 site_url: https://maroph.github.io/blog/
 site_description: My GitHub related blog
@@ -10,12 +11,9 @@ site_author: Manfred Rosenboom (maroph)
 repo_url: https://github.com/maroph/blog/
 repo_name: maroph/blog
 edit_uri: ""
-# edit_uri: edit/main/docs
-# view readonly version                  edit_uri: blob/main/docs
 
 theme:
     name: material
-# https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
     palette:
         - scheme: default
           primary: indigo
@@ -34,7 +32,8 @@ theme:
 #    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
     logo: assets/128px-Feed-icon.svg.png
     direction: ltr
-#     favicon: assets/favicon.ico
+# https://www.favicon.cc/?action=icon&file_id=11659#
+    favicon: assets/favicon.ico
     features:
         - header.autohide
         - content.action.edit
@@ -95,7 +94,6 @@ plugins:
     - search:
           enabled: true
           lang: en
-# https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#writing-your-first-post
     - blog:
         enabled: true
         authors: false
@@ -107,7 +105,6 @@ plugins:
         pagination: true
         pagination_per_page: 10
         pagination_url_format: "page/{page}"
-        # post_date_format: EEEE, MMMM d, yyyy
         post_date_format: long
         pagination_if_single_page: false
         post_excerpt: optional
@@ -125,7 +122,6 @@ plugins:
         categories_allowed:
             - Announcement
             - General
-# https://guts.github.io/mkdocs-rss-plugin/configuration/
     - rss:
         enabled: true
         abstract_chars_count: 160
