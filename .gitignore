@@ -1,2 +1,5 @@
-.backup.tar.gz
-.yesterday.tar.gz
+.cache/
+.idea/
+site/
+venv/
+mkdocs.shut

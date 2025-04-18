@@ -1,5 +1,15 @@
-# My bashblog Blog
+# Blog
+This is my 
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+based blog.
 
-The creation of this blog is based on the 
-[bashblog/bb.sh](https://github.com/cfenollosa/bashblog/blob/master/bb.sh)
-script.
+---
+
+The blog is build with the 
+[MkDocs](https://www.mkdocs.org/) 
+static site generator and 
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+The
+[MkDocs RSS Plugin](https://guts.github.io/mkdocs-rss-plugin/) is used to create
+a RSS feed for this blog.
