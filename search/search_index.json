@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"index.html","title":"Blog","text":""},{"location":"2025/04/18/todo.html","title":"TODO","text":"<p>Lorem ipsum ...</p> <p>More details ...</p>"},{"location":"archive/2025.html","title":"2025","text":""}]}
