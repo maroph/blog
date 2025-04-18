@@ -137,6 +137,7 @@ plugins:
             default_time: "12:00"
             default_timezone: Europe/Berlin
         feed_ttl: 1440
+        image: https://maroph.github.io/blog/assets/128px-Feed-icon.svg.png
         json_feed_enabled: false
         length: 10
         use_git: true
