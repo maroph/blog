@@ -3,9 +3,10 @@
 # https://www.mkdocs.org/user-guide/
 # https://squidfunk.github.io/mkdocs-material/
 # https://guts.github.io/mkdocs-rss-plugin/
-site_name: Blog
+site_name: My GitHub repositories related blog
+
 site_url: https://maroph.github.io/blog/
-site_description: My GitHub related blog
+site_description: My GitHub repositories related blog
 site_author: Manfred Rosenboom (maroph)
 
 repo_url: https://github.com/maroph/blog/
@@ -115,7 +116,7 @@ plugins:
         archive_date_format: yyyy
         archive_url_format: "archive/{date}"
         archive_toc: true
-        categories: false
+        categories: true
         categories_name: Categories
         categories_url_format: "category/{slug}"
         categories_toc: true
@@ -137,10 +138,10 @@ plugins:
             default_time: "12:00"
             default_timezone: Europe/Berlin
         feed_ttl: 1440
-        image: https://maroph.github.io/mvhs_python_automatisierung_scripting/assets/128px-Feed-icon.svg.png
+        image: https://maroph.github.io/blog/assets/128px-Feed-icon.svg.png
         json_feed_enabled: false
         length: 10
-        use_git: true
+        use_git: false
         use_material_blog: true
 
 extra:

@@ -1,5 +1,5 @@
 ---
-date: 2025-04-20T11:48:00
+date: 2025-04-21T13:29:00
 authors: 
   - maroph
 categories:
@@ -7,5 +7,4 @@ categories:
 ---
 
 # First Post
-This is the first post in my new blog
-creating environment.
+This is the first post.
