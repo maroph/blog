@@ -3,8 +3,7 @@
 # https://www.mkdocs.org/user-guide/
 # https://squidfunk.github.io/mkdocs-material/
 # https://guts.github.io/mkdocs-rss-plugin/
-site_name: My GitHub repositories related blog
-
+site_name: My GitHub Blog
 site_url: https://maroph.github.io/blog/
 site_description: My GitHub repositories related blog
 site_author: Manfred Rosenboom (maroph)
@@ -89,6 +88,8 @@ markdown_extensions:
     - tables
 
 plugins:
+    - meta:
+          enabled: true
     - privacy:
           enabled: true
           cache: true
@@ -109,7 +110,7 @@ plugins:
         post_date_format: "dd. MMMM YYYY, H:mm"
         pagination_if_single_page: false
         post_excerpt: optional
-        post_excerpt_separator: "<!--more-->"
+        post_excerpt_separator: "<!-- more -->"
         post_readtime: false
         archive: true
         archive_name: Archive
@@ -126,7 +127,7 @@ plugins:
     - rss:
         enabled: true
         abstract_chars_count: 160
-        abstract_delimiter: "<!--more-->"
+        abstract_delimiter: "<!-- more -->"
         categories:
             - categories
             - tags
